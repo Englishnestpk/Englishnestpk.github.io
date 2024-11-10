@@ -1,0 +1,2183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Updock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+      <link rel="shortcut icon" type="image/jpg" href="favicon.png"><link rel="stylesheet" type="text/css" href="style.css"><link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"><script type="text/javascript" src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script><script type="text/javascript">emailjs.init("JmWFn7DJzgs_MOJog")</script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/twemoji.min.css">
+      <!-- Include Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- Add this to load Font Awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/3paNdF+ZsaBr6P9lJZrF1H6vhtPiFQ" crossorigin="anonymous">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/twemoji.min.js"></script>
+<script>
+  // This will parse and render emojis using Twemoji
+  twemoji.parse(document.body);
+</script>
+
+    <title>The English Nest &nbsp &nbsp-Nest Your Future with Us</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Nunito&display=swap);
+        body {
+            font-family: 'Quicksand';
+            background: var(--navy);
+            margin: 0;
+        }
+
+
+/*====================== Font Family =======================*/
+
+/*======             font-family: 'Quicksand';                                            ========*/
+/*======             font-family: "Dancing Script", cursive;                      ========*/
+/*======               font-family: "Updock", cursive;                                ========*/
+
+
+        :root {;
+            --navy: #08032C;
+            --sky-blue: #6CD4FF;
+            --blue: #2AC6D1;
+            --white: #F4F1E6;
+            --green: #98fb98;
+            --cream: #CFA89E;
+        }
+        // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 12px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--green);
+    border: 2px solid var(--blue);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+    border-radius: 6px; /* Optional for rounded corners */
+    border: 2px solid var(--blue); /* This will give a border around the scrollbar thumb */
+}
+
+/* Firefox scrollbar styling */
+* {
+    scrollbar-width: thin; /* Thin scrollbar width */
+    scrollbar-color: var(--navy) var(--blue); /* Thumb color and track color */
+}
+/* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar in Firefox */
+* {
+    scrollbar-width: none; /* Hides scrollbar but keeps scrolling in Firefox */
+}
+
+/* Allow scrolling while hiding the scrollbar */
+body {
+    overflow-y: scroll; /* Enables vertical scrolling without showing the scrollbar */
+}
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .top-bar {
+            position: fixed;
+            top: 20px;
+            left: 10px;
+            right: 10px;
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            border: 4px solid var(--blue);
+            background-color: transparent;
+            backdrop-filter: blur(7px);
+            color: skyblue;
+            border-radius: 30px;
+            z-index: 1000;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .logo-container {
+            display: flex;
+/*            align-items: center;*/
+            gap: 0px;
+        }
+
+        .logo-container img {
+            height: 80px;
+            width: auto;
+            /*padding-top: 10px;
+            padding-left: 10px;*/
+            padding: 0px;
+        }
+
+        .logo-container h1 {
+            font-size: 20px;
+            margin: 0;
+            color: var(--blue);
+            font-weight: bold;
+        }
+
+        .top-bar .nav-links {
+            display: flex;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .top-bar .nav-links a {
+            color: var(--sky-blue);
+            font-weight: 800;
+            text-decoration: none;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 3px solid transparent;
+            border-radius: 20px;
+            transition: border-color 0.3s;
+        }
+
+        .top-bar .nav-links a:hover {
+            border: 3px solid var(--blue);
+            border-radius: 20px;
+            color: var(--white);
+            background-color: var(--blue);
+        }
+
+        .top-bar .nav-links a.active {
+            border: 3px solid var(--blue);
+            border-radius: 20px;
+            color: var(--white);
+            background-color: var(--blue);
+            }
+
+        .section {
+            padding: 20px;
+        }
+
+        #home {
+            height: 90vh;
+            background-color: var(--navy);
+            color: var(--white);
+            padding-top: 60px;
+        }
+
+        #services, #about, #contact {
+            height: 100vh;
+        }
+
+     #about {
+            background-color: var(--navy);
+            color: var(--white);
+        }
+        .first-about h1{
+            color: yellow;
+            padding-top: 70px;
+            text-align: center;
+            font-size: 50px;
+        }
+        .first-about p{
+            color: var(--white);
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        #services {
+            background-color: var(--navy);
+        }
+
+   
+
+        #contact {
+            background-color: var(--navy);
+            color: var(--white);
+        }
+/*     ======================================= Home ==============================   */
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%; /* Fill the full height of the section */
+    padding: 20px; /* Add some padding */
+}
+
+.image-container {
+    flex: 1; /* Take up 50% of the space */
+    text-align: center; /* Center the image */
+     justify-content: center;    /* Center the image horizontally */
+         transform: translateY(20%); /* Adjust to center vertically */
+
+
+}
+
+
+
+
+
+    
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px); /* Move up slightly */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.home-image {
+    transform: translateY(30%); /* Adjust to center vertically */
+    max-width: 100%; /* Ensure the image is responsive */
+    animation: moveUpDown 3s ease-in-out infinite; /* Apply animation */
+}
+
+
+.text-container {
+    display: flex;            /* Enables flexbox layout */
+    flex-direction: column;   /* Stacks items vertically */
+    transform: translateY(22%); /* Adjust to center vertically */
+    align-items: flex-start;  /* Aligns items to the left */
+    padding: 20px;           /* Adds padding inside the container */
+    color: var(--white);     /* Sets text color to white */
+    max-width: 600px;        /* Sets a maximum width for the text container */
+}
+
+.text-container h1 {
+    color: yellow;
+    font-size: 60px;          /* Increases the font size of the heading */
+    margin: 0px;     /* Sets margin around the heading */
+}
+
+.text-container p {
+    font-size: 22px;        /* Sets font size for the subheading */
+    margin: 0px;     /* Sets margin around the paragraph */
+    padding-top: 30px;
+}
+.text-container h2{
+    font-size: 30px;
+    color: var(--sky-blue);
+      font-family: "Dancing Script", cursive;
+/*  font-family: "Updock", cursive;*/
+
+      font-weight: 700;
+/*      font-style: italic;*/
+
+
+}
+.text-container .cta-button {
+    margin-top: 50px;
+    padding: 10px 20px;      /* Adds padding inside the button */
+    background-color: var(--navy); /* Sets button background color */
+    color: var(--sky-blue);
+    border: 2px solid var(--sky-blue);             /* Removes default border */
+    border-radius: 40px;      /* Adds rounded corners to the button */
+    cursor: pointer;          /* Changes cursor to pointer on hover */
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.text-container .cta-button:hover {
+    background-color: var(--sky-blue);
+    cursor: pointer;
+    color: var(--navy);
+}
+
+
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 35px;
+            height: 65px;
+            border: 2px solid var(--white);
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            overflow: hidden;
+            opacity: 0.7;
+        }
+
+        .scroll-indicator .scroll-ball {
+            width: 9px;
+            height: 9px;
+            background-color: var(--white);
+            border-radius: 50%;
+            animation: bounce 3s infinite;
+            margin-top: 8px;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(15px);
+            }
+        }
+
+
+
+/*================================================== About Us ========================================*/
+.about-container {
+    display: flex;
+    gap: 00px;
+    margin-top: 0px;
+}
+
+.about-text {
+    margin-top: 0px;
+    flex: 1;
+    color: var(--white);
+}
+.about-text h1{
+    color: var(--sky-blue);
+    margin-top: 0px;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+.about-text p{
+    font-size: 23px;
+    width: 80%;
+    padding-top: 10px;
+    color: white;
+}
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+
+/*================================================ Why choose us ================================================*/
+
+
+#abt-sec {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    background-color: var(--navy);
+    overflow: hidden;
+}
+
+.abt-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/university-1.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    z-index: 1; /* Set lower z-index */
+}
+
+.abt-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*background-color: rgba(0, 0, 8, 0.75); /* Navy blue with 70% opacity */
+    backdrop-filter: blur(4px); /* Apply blur effect */*/
+    z-index: 2; /* Set higher than background but lower than text */
+}
+
+.choose-h {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    z-index: 3; /* Set highest z-index to ensure it's in front */
+}
+
+.choose-h h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+.abt-txt-cont {
+    position: absolute;
+    bottom: 15%;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    z-index: 3; /* Align with text containers */
+}
+
+.abt-txt-box {
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    border: 3px solid var(--sky-blue);
+    border-radius: 20px;
+}
+.abt-txt-box img{
+    width: 80px;
+    padding-top: 20px;
+}
+
+.abt-txt-box h3{
+    color: yellow;
+    font-size: 20px;
+}
+    .abt-txt-box p{
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+
+/*========================================== Services =============================================*/
+
+.sec-heading h1{
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.boxes {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;         /* Allows boxes to wrap to the next line */
+    justify-content: center;  /* Centers boxes horizontally */
+    width: 100%;
+    gap: 35px;                /* Space between boxes */
+}
+
+.box {
+    border: 3px solid var(--sky-blue);
+    width: 25%;               /* Each box takes 30% of the row width */
+    height: 180px;            /* Set the height for each box */
+    background-color: var(--navy);   /* Sample color for each box */
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
+}
+
+/* Center the last box in the third row */
+#box7 {
+    width: 35%;               /* Keep the same width as other boxes */
+    height: ;
+    margin-left: auto;        /* Pushes box7 to the center of the last row */
+    margin-right: auto;
+}
+
+/* Hover effect: pop-up and shadow */
+.box:hover {
+    transform: translateY(-10px); /* Slight pop-up effect */
+    box-shadow: 2px 2px 7px var(--sky-blue),   /* Left shadow */
+                -2px 2px 7px var(--sky-blue),  /* Right shadow */
+                0px 5px 20px var(--sky-blue);  /* Lower shadow */
+}
+
+
+/*========== Boxes===========*/
+
+/* Service Card */
+    .box {
+      padding: 0px;
+      text-align: center;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+  
+
+    /* Icon and Text */
+    .box .icon {
+      font-size: 35px;
+      color: #007bff;
+      padding: 5px;
+      transition: color 0.3s ease;
+    }
+
+   /* .box:hover .icon {
+      color: #0056b3;
+    }
+*/
+    .box h3 {
+      font-size: 25px;
+      color: var(--sky-blue);
+      margin: 5px 0;
+    }
+
+    .box p {
+      font-size: 15px;
+      color: white;
+      margin: 5px 0;
+    }
+
+    /* Button */
+    .cta-button {
+      display: inline-block;
+      margin-top: 10px;
+      width: 30%;
+/*      padding: 8px 15px;*/
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 13px;
+padding-right: 13px;
+/*      background: var(--sky-blue);*/
+background-color: #007bff;
+      color: var(--navy);
+      font-weight: bold;
+      border-radius: 20px;
+      border: 2px solid #007bff;
+      text-decoration: none;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background: var(--navy);
+      border: 2px solid var(--sky-blue);
+      color: var(--sky-blue);
+      cursor: pointer;
+    }
+
+    /* Center the last card in the third row */
+    .box:last-child {
+      grid-column: 2 / 3;
+    }
+
+    /* Scroll Animation */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .box {
+      opacity: 0;
+      animation: fadeInUp 0.6s ease forwards;
+    }
+
+
+/*================= Popupone =====================*/
+
+.popup{
+/*    display: none;*/
+}
+
+.popupone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 560%);
+    width: 55%;
+    z-index: 1000;
+    height: 50vh;
+    border-radius: 20px;
+    display: none;
+/*    border: 3px solid skyblue;*/
+    align-items: center;
+}
+
+.general, .academic {
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    height: 50vh;
+    z-index: 1000;
+    border: 3px solid var(--sky-blue);
+    background-color: var(--navy);
+    border-radius: 20px;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
+.general{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.general h1{
+  color: yellow;
+  margin: 0;
+  font-size: 25px;
+  padding: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+.general h3{
+font-size: 15px;
+padding: 5px;
+text-align: center;
+color: var(--sky-blue);
+}
+.academic h1{
+  font-size: 25px ;
+  color: yellow;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.academic h3{
+  font-size: 15px;
+padding: 7px;
+text-align: center;
+color: var(--sky-blue);
+}
+.popupone h2{
+  color: yellow;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.popupone ul li {
+  color: var(--sky-blue);
+  font-size: 18px;
+  font-weight: bold;
+}
+.popupone h4{
+  color: var(--sky-blue);
+  font-size: 20px;
+  margin-bottom: 7px;
+  padding-left: 20px;
+}
+
+.academic{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+}
+.academic i{
+    color: var(--sky-blue);
+    background-color: var(--navy);
+/*    border: 2px solid var(--sky-blue);*/
+/*    padding: 5px;*/
+    border-radius: 10px;
+    text-align: center;
+/*    margin-top: 10px;*/
+/*    transform: translateX(300px);;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.academic button{
+   position: absolute;         /* Enables positioning relative to the nearest positioned ancestor */
+    bottom: 0;                  /* Places the button at the bottom of the container */
+    right: 0;                   /* Places the button on the right side of the container */
+    
+    /* Other styling properties */
+    cursor: pointer;
+    background-color: var(--navy);
+    color: var(--sky-blue);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--sky-blue);
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;           /* Adjust as needed, but margin-top may not have much effect here */
+    margin-bottom: 10px;        /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.academic .i{
+    text-decoration: none;
+}
+
+
+
+  .popuptwo{
+    width: 50%;
+    height: 50vh;
+    border: 3px solid skyblue;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 560%);
+    z-index: 1000;
+    border-radius: 20px;
+display: none;
+/*    border: 3px solid skyblue;*/
+    align-items: center;
+    background: var(--navy);
+
+  }
+.pte h1{
+  font-size: 30px ;
+  color: yellow;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.pte p{
+  color: var(--white);
+  padding-left: 20px;
+  font-size: 19px;
+  width: 95%;
+}
+.popuptwo h4{
+  color: var(--sky-blue);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.pte{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+}
+.pte i{
+    color: var(--sky-blue);
+    background-color: var(--navy);
+/*    border: 2px solid var(--sky-blue);*/
+/*    padding: 5px;*/
+    border-radius: 10px;
+    text-align: center;
+/*    margin-top: 10px;*/
+/*    transform: translateX(300px);;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.pte button{
+  position: absolute;         /* Enables positioning relative to the nearest positioned ancestor */
+    bottom: 0;                  /* Places the button at the bottom of the container */
+    right: 0;                   /* Places the button on the right side of the container */
+    
+    /* Other styling properties */
+    cursor: pointer;
+    background-color: var(--navy);
+    color: var(--sky-blue);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--sky-blue);
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;           /* Adjust as needed, but margin-top may not have much effect here */
+    margin-bottom: 10px;        /* Adjust as needed */
+    margin-right: 10px;
+}
+
+
+
+/*========================== TOEFL =================*/
+ .popupthree{
+    width: 50%;
+    height: 50vh;
+    border: 3px solid skyblue;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 560%);
+    z-index: 1000;
+    border-radius: 20px;
+display: none;
+/*    border: 3px solid skyblue;*/
+    align-items: center;
+    background: var(--navy);
+
+  }
+.toefl h1{
+  font-size: 30px ;
+  color: yellow;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.toefl p{
+  color: var(--white);
+  padding-left: 20px;
+  font-size: 19px;
+  width: 95%;
+}
+.popupthree h4{
+  color: var(--sky-blue);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.toefl{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+}
+.toefl i{
+    color: var(--sky-blue);
+    background-color: var(--navy);
+/*    border: 2px solid var(--sky-blue);*/
+/*    padding: 5px;*/
+    border-radius: 10px;
+    text-align: center;
+/*    margin-top: 10px;*/
+/*    transform: translateX(300px);;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.toefl button{
+   position: absolute;         /* Enables positioning relative to the nearest positioned ancestor */
+    bottom: 0;                  /* Places the button at the bottom of the container */
+    right: 0;                   /* Places the button on the right side of the container */
+    
+    /* Other styling properties */
+    cursor: pointer;
+    background-color: var(--navy);
+    color: var(--sky-blue);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--sky-blue);
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;           /* Adjust as needed, but margin-top may not have much effect here */
+    margin-bottom: 10px;        /* Adjust as needed */
+    margin-right: 10px;
+}
+
+
+
+/*==================== Business ===============*/
+ .popupfour{
+    width: 50%;
+    height: 50vh;
+    border: 3px solid skyblue;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 560%);
+    z-index: 1000;
+    border-radius: 20px;
+display: none;
+/*    border: 3px solid skyblue;*/
+    align-items: center;
+    background: var(--navy);
+
+  }
+.business h1{
+  font-size: 30px ;
+  color: yellow;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.business p{
+  color: var(--white);
+  padding-left: 20px;
+  font-size: 19px;
+  width: 95%;
+}
+.popupfour h4{
+  color: var(--sky-blue);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.business{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+}
+.business i{
+    color: var(--sky-blue);
+    background-color: var(--navy);
+/*    border: 2px solid var(--sky-blue);*/
+/*    padding: 5px;*/
+    border-radius: 10px;
+    text-align: center;
+/*    margin-top: 10px;*/
+/*    transform: translateX(300px);;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.business button{
+   position: absolute;         /* Enables positioning relative to the nearest positioned ancestor */
+    bottom: 0;                  /* Places the button at the bottom of the container */
+    right: 0;                   /* Places the button on the right side of the container */
+    
+    /* Other styling properties */
+    cursor: pointer;
+    background-color: var(--navy);
+    color: var(--sky-blue);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--sky-blue);
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;           /* Adjust as needed, but margin-top may not have much effect here */
+    margin-bottom: 10px;        /* Adjust as needed */
+    margin-right: 10px;
+}
+
+
+
+
+/*=================== Spoken ==================*/
+
+ .popupfive{
+    width: 50%;
+    height: 50vh;
+    border: 3px solid skyblue;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 560%);
+    z-index: 1000;
+    border-radius: 20px;
+display: none;
+/*    border: 3px solid skyblue;*/
+    align-items: center;
+    background: var(--navy);
+
+  }
+.spoken h1{
+  font-size: 30px ;
+  color: yellow;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.spoken p{
+  color: var(--white);
+  padding-left: 20px;
+  font-size: 19px;
+  width: 95%;
+}
+.popupfive h4{
+  color: var(--sky-blue);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.spoken{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+}
+.spoken i{
+    color: var(--sky-blue);
+    background-color: var(--navy);
+/*    border: 2px solid var(--sky-blue);*/
+/*    padding: 5px;*/
+    border-radius: 10px;
+    text-align: center;
+/*    margin-top: 10px;*/
+/*    transform: translateX(300px);;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.spoken button{
+     position: absolute;         /* Enables positioning relative to the nearest positioned ancestor */
+    bottom: 0;                  /* Places the button at the bottom of the container */
+    right: 0;                   /* Places the button on the right side of the container */
+    
+    /* Other styling properties */
+    cursor: pointer;
+    background-color: var(--navy);
+    color: var(--sky-blue);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--sky-blue);
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;           /* Adjust as needed, but margin-top may not have much effect here */
+    margin-bottom: 10px;        /* Adjust as needed */
+    margin-right: 10px;
+}
+
+
+
+/*=======================  Oxford ==============*/
+
+ .popupsix{
+    width: 50%;
+    height: 50vh;
+    border: 3px solid skyblue;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 560%);
+    z-index: 1000;
+    border-radius: 20px;
+display: none;
+/*    border: 3px solid skyblue;*/
+    align-items: center;
+    background: var(--navy);
+
+  }
+.oxford h1{
+  font-size: 30px ;
+  color: yellow;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.oxford p{
+  color: var(--white);
+  padding-left: 20px;
+  font-size: 19px;
+  width: 95%;
+}
+.popupsix h4{
+  color: var(--sky-blue);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.oxford{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+}
+.oxford i{
+    color: var(--sky-blue);
+    background-color: var(--navy);
+/*    border: 2px solid var(--sky-blue);*/
+/*    padding: 5px;*/
+    border-radius: 10px;
+    text-align: center;
+/*    margin-top: 10px;*/
+/*    transform: translateX(300px);;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.oxford button{
+      position: absolute;         /* Enables positioning relative to the nearest positioned ancestor */
+    bottom: 0;                  /* Places the button at the bottom of the container */
+    right: 0;                   /* Places the button on the right side of the container */
+    
+    /* Other styling properties */
+    cursor: pointer;
+    background-color: var(--navy);
+    color: var(--sky-blue);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--sky-blue);
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;           /* Adjust as needed, but margin-top may not have much effect here */
+    margin-bottom: 10px;        /* Adjust as needed */
+    margin-right: 10px;
+}
+
+
+
+/*======================== Spouse ==========*/
+ .popupseven{
+    width: 50%;
+    height: 50vh;
+    border: 3px solid skyblue;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 560%);
+    z-index: 1000;
+    border-radius: 20px;
+display: none;
+/*    border: 3px solid skyblue;*/
+    align-items: center;
+    background: var(--navy);
+
+  }
+.spouse h1{
+  font-size: 30px ;
+  color: yellow;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.spouse p{
+  color: var(--white);
+  padding-left: 20px;
+  font-size: 19px;
+  width: 95%;
+}
+.popupseven h4{
+  color: var(--sky-blue);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.spouse{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+}
+.spouse i{
+    color: var(--sky-blue);
+    background-color: var(--navy);
+/*    border: 2px solid var(--sky-blue);*/
+/*    padding: 5px;*/
+    border-radius: 10px;
+    text-align: center;
+/*    margin-top: 10px;*/
+/*    transform: translateX(300px);;*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.spouse button{
+ position: absolute;         /* Enables positioning relative to the nearest positioned ancestor */
+    bottom: 0;                  /* Places the button at the bottom of the container */
+    right: 0;                   /* Places the button on the right side of the container */
+    
+    /* Other styling properties */
+    cursor: pointer;
+    background-color: var(--navy);
+    color: var(--sky-blue);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 3px solid var(--sky-blue);
+    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;           /* Adjust as needed, but margin-top may not have much effect here */
+    margin-bottom: 10px;        /* Adjust as needed */
+    margin-right: 10px;
+
+}
+
+
+#testimonial{
+height: 75vh;
+width: 100%;
+}
+.testimonial-heading h1{
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+}
+.testimonial-heading{
+    margin-bottom: 150px;
+}
+
+
+/* Container styling */
+/* Container styling */
+.testimonial-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--navy);
+}
+
+/* Testimonial Box styling */
+.testimonial-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    background-color: var(--navy);
+    border-radius: 30px;
+/*    box-shadow: 0px 4px 8px var(--sky-blue);*/
+border: 3px solid var(--sky-blue);
+    text-align: center;
+}
+
+/* Image styling */
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid var(--blue);
+    margin-bottom: 15px;
+}
+
+/* Name, Text, and Rating styling */
+.testimonial-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: yellow;
+    margin: 0;
+}
+
+.testimonial-text {
+    font-size: 1em;
+    color: var(--white);
+    margin: 10px 0;
+}
+
+.testimonial-rating {
+    font-size: 1.2em;
+    color: #FFD700;
+}
+
+
+
+
+  /* Styling for Input Groups with Icons */
+  .input-group {
+    position: relative;
+    display: flex;
+    background-color: var(--navy);
+    align-items: center;
+    width: 80%;
+  }
+  .input-icon {
+    position: absolute;
+    left: 15px;
+    font-size: 1.2rem;
+    color: var(--sky-blue);
+  }
+.contact-input {
+  width: 100%;
+  padding: 12px 15px 12px 40px;
+  border: 3px solid var(--sky-blue);
+  border-radius: 25px;
+  font-size: 18px;
+  color: var(--sky-blue);
+  transition: border-color 0.3s;
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: var(--sky-blue); /* Keep the border color unchanged */
+  box-shadow: none; /* Remove any box shadow on focus */
+}
+
+  #contact-submit:hover {
+    background-color: var(--sky-blue);
+  }
+input{
+    background-color: var(--navy);
+    border-radius: 20px;
+    border: 3px solid var(--sky-blue);
+}
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    #contact-heading {
+      font-size: 2rem;
+    }
+    #book-call-heading {
+      font-size: 1.5rem;
+    }
+    .contact-input {
+      font-size: 0.9rem;
+    }
+    #contact-submit {
+      font-size: 1rem;
+    }
+  }
+
+
+
+
+
+#footer-bar {
+/*  width: 85%;
+  height: 30px;
+  background-color: var(--navy);
+  border: 3px solid var(--sky-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+*/
+   width: 85%;
+  height: 50px;
+  background-color: var(--navy);
+  border: 3px solid var(--sky-blue);
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 50px; /* Adds 50px space below the section */
+}
+
+.footer-left {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--sky-blue);
+}
+
+.footer-right{
+  font-size: 15px;
+  padding-top: 0;
+  color: var(--sky-blue);
+  text-decoration: none;
+}
+a{
+    color: var(--sky-blue);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+<!-- ======================================== Top Bar ============================================== -->
+    <div class="top-bar">
+        <div class="logo-container">
+            <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/logo.png" alt="The English Nest">
+            <!-- <h1>English Nest</h1> -->
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+<!-- =========================================== Home ================================================== -->
+  <div id="home" class="section">
+    <div class="home-content">
+        
+        <div class="text-container">
+            <h2>The English Nest</h2>
+            <h1>Nest Your Fu&#127795;ure with us</h1>
+            <p>Embark on a journey where knowledge meets passion and success becomes inevitable! &#11088;</p>
+<button class="cta-button" onclick="scrollToContact()">Start Now! &#10024;</button>
+        </div>
+        <div class="image-container">
+            <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/teacher.png" alt="Teacher" class="home-image">
+        </div>
+    </div>
+       <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-ball"></div>
+        </div>
+</div>
+
+    <!-- ======================================== About us ================================================== -->
+
+    <div id="about" class="section">
+        <div class="first-about">
+            <h1>About Us</h1>
+        <p>Building Confidence in English, One Student at a Time</p>
+        </div>
+        
+<div class="about-container">
+     <div class="about-image">
+        <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/girl.png" alt="About Us Image">
+    </div>
+    <div class="about-text">
+        <h1>Elevate Your English Skills with Maam Syyeda</h1>
+        <p>Maam Syyeda is a dedicated and exceptional English instructor, guiding students with clarity and simplicity. Her expertise brings English to life, making learning accessible and enjoyable for everyone. As the heart of The English Nest, she’s committed to helping each learner succeed with confidence.</p>
+    </div>
+   
+</div>
+    </div>
+
+    <!-- ======================================= Why choose us ============================================ -->
+
+   <section class="section" id="abt-sec">
+    <!-- Background Image with Dark Overlay -->
+    <div class="abt-bg">
+        <div class="abt-overlay"></div>
+    </div>
+<div class="choose-h">
+        <h1>Why Choose Us</h1>
+</div>
+
+    <!-- Text Divs Container -->
+    <div class="abt-txt-cont">
+        <div class="abt-txt-box">
+            <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/expert.png">
+            <h3>Experience</h3>
+            <p>Learn with a teacher who truly understands English and makes every lesson clear and fun. You’re in great hands here!</p>
+        </div>
+        <div class="abt-txt-box">
+            <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/care.png">
+            <h3>Care</h3>
+            <p>Receive one-on-one attention every step of the way. We’re here to make sure you succeed comfortably and confidently.</p>
+        </div>
+        <div class="abt-txt-box">
+            <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/results.png">
+            <h3>Results</h3>
+            <p>Achieve your goals faster with lessons designed just for you. Real progress, real skills, real confidence!</p>
+        </div>
+    </div>
+</section>
+<!-- ============================================ Services ================================================ -->
+  <div class="popupone">
+    <div class="general">
+      <h1>IELTS General</h1>
+      <h3>An English test for people who want to work, live, or do training in English-speaking countries.</h3>
+      <h2>Modules</h2>
+      <ul>
+  <li>Reading</li>
+  <li>Writing</li>
+  <li>Listening</li>
+  <li>Speaking</li>
+</ul>
+<h4>Difficulty level : Moderate</h4>
+    </div>
+    <div class="academic">
+      <h1>IELTS Acadamic</h1>
+      <h3>IELTS Academic checks if your English is good enough for studying in English-speaking countries.</h3>
+      <h2>Modules</h2>
+        <ul>
+  <li>Reading</li>
+  <li>Writing</li>
+  <li>Listening</li>
+  <li>Speaking</li>
+</ul>
+<h4>Difficulty level : High</h4>
+<button onclick="hidePopup()"><i class="fas fa-multiply" onclick="hidePopup()"></i></button>
+      <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopup()"></i></div> -->
+
+    </div>
+  </div>
+
+
+
+
+
+<div class="popuptwo">
+<div class="pte">
+      <h1>PTE</h1>
+      <p>PTE  is all about getting you ready to thrive in English-speaking environments, whether you’re planning to study, work, or settle down abroad. This test checks how well you can read, write, listen, and speak English, and it's known for its fast, unbiased scoring thanks to AI. If you’re in a rush and need results quickly, PTE has your back, especially for countries like Australia, New Zealand, and Canada.</p>
+<h4>Difficulty level: Moderate to High</h4>
+<button onclick="hidePopuptwo()"><i class="fas fa-multiply" onclick="hidePopuptwo()"></i></button>
+
+      <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopuptwo()"></i></div> -->
+    </div>
+  </div>
+
+
+
+
+
+
+
+<div class="popupthree">
+  <div class="toefl">
+     <h1>TOEFL</h1>
+     <p>TOEFL is your ticket if you're dreaming of studying in the U.S. or Canada. This test dives deep into how well you handle university-level English, from understanding lectures to writing essays. With thousands of schools accepting TOEFL scores, it’s a top pick for students ready to take on the academic world. Plus, the score is valid for two years, giving you time to plan your next big step.</p>
+<h4>Difficulty level: High</h4>
+<button onclick="hidePopupthree()"><i class="fas fa-multiply" onclick="hidePopupthree()"></i></button>
+      <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupthree()"></i></div> -->
+  </div>
+</div>
+
+
+<div class="popupfour">
+  <div class="business">
+    <h1>Business English</h1>
+      <p>Want to shine in the business world? The Business English course is designed to get you confident with everything from emails to presentations. Imagine negotiating deals or leading meetings in fluent, professional English. This course isn’t just about learning words, it’s about mastering the language of global business and showing you’re ready for international success.</p>
+<h4>Difficulty level: Moderate</h4>
+<button onclick="hidePopupfour()"><i class="fas fa-multiply" onclick="hidePopupfour()"></i></button>
+      <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupfour()"></i></div> -->
+  </div>
+</div>
+
+
+<div class="popupfive">
+  <div class="spoken">
+       <h1>Spoken English</h1>
+ <p>If you're looking to break free from language barriers, this Spoken English course is where you start. It’s all about boosting your confidence in everyday conversations, from casual chats to professional talks. With plenty of practice, you’ll find yourself speaking naturally, expressing your thoughts clearly, and enjoying the ease that comes with real fluency.</p>
+<h4>Difficulty level: Easy to Moderate</h4>
+<button onclick="hidePopupfive()"><i class="fas fa-multiply" onclick="hidePopupfive()"></i></button>
+      <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupfive()"></i></div> -->
+  </div>
+</div>
+
+
+<div class="popupsix">
+  <div class="oxford">
+       <h1>Oxford English Test</h1>
+       <p>Developed by the experts at Oxford, this test is a smart choice if you want to know where you stand with your English skills. It’s respected worldwide and covers all the basics: reading, listening, and grammar. No stress, just a solid evaluation of how ready you are for English-speaking environments, whether it’s for work, study, or travel.</p>
+<h4>Difficulty level: Moderate </h4>
+<button onclick="hidePopupsix()"><i class="fas fa-multiply" onclick="hidePopupsix()"></i></button>
+      <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupsix()"></i></div> -->
+  </div>
+</div>
+
+
+<div class="popupseven">
+  <div class="spouse">
+    <h1>Life Skills for Spouse Visa</h1>
+    <p>This one’s tailored for those applying for a UK spouse visa, focusing only on the basics: can you understand and respond in everyday English? It’s a practical, straightforward test designed to show you can handle the day-to-day language of life in an English-speaking country. Perfect for anyone starting fresh with their partner in the UK.
+</p>
+<h4>Difficulty level: Easy</h4>
+<button onclick="hidePopupseven()"><i class="fas fa-multiply" onclick="hidePopupseven()"></i></button>
+      <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupseven()"></i></div> -->
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="services" class="section">
+
+        <div class="sec-heading">
+            <h1> Services We Offer</h1>
+        </div>
+        <div class="popup">
+      <!-- <div class="icon"  ><i class="fas fa-multiply"></i></div> -->
+
+
+</div>
+      <div class="boxes"> 
+    <div class="box" id="box1">
+                <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>IELTS</h3>
+                <!-- <p>Comprehensive IELTS preparation to help you achieve your target band score.</p> -->
+    <a class="cta-button" id="btnone" onclick="showPopup()">Learn More</a>
+    </div>  
+    <div class="box" id="box2">
+        <div class="icon"><i class="fas fa-globe"></i></div>
+        <h3>PTE</h3>
+        <!-- <p>Personalized training for PTE to improve your performance on all test sections.</p> -->
+        <a class="cta-button" id="btntwo" onclick="showPopuptwo()">Learn More</a>
+    </div>  
+    <div class="box" id="box3">
+        <div class="icon"><i class="fas fa-book"></i></div>
+        <h3>TOEFL</h3>
+        <!-- <p>Expert guidance for TOEFL to help you excel in listening, reading, writing, and speaking.</p> -->
+        <a class="cta-button" id="btnthree" onclick="showPopupthree()">Learn More</a>
+    </div>  
+    <div class="box" id="box4">
+         <div class="icon"><i class="fas fa-briefcase"></i></div>
+        <h3>Business English</h3>
+        <!-- <p>Master the English skills  for professional communication and business success.</p> -->
+        <a class="cta-button" id="btnfour" onclick="showPopupfour()">Learn More</a>
+    </div>  
+    <div class="box" id="box5">
+           <div class="icon"><i class="fas fa-comments"></i></div>
+        <h3>Spoken English</h3>
+        <!-- <p>Build confidence in spoken English with practical and immersive language sessions.</p> -->
+        <a class="cta-button" id="btnfive" onclick="showPopupfive()">Learn More</a>
+    </div>  
+    <div class="box" id="box6">
+                <div class="icon"><i class="fas fa-university"></i></div>
+        <h3>Oxford English Test</h3>
+        <!-- <p>Achieve a globally recognized qualification with our Oxford English Test preparation.</p> -->
+        <a class="cta-button" id="btnsix" onclick="showPopupsix()">Learn More</a>
+    </div>  
+    <div class="box" id="box7">
+        <div class="icon"><i class="fas fa-heart"></i></div>
+        <h3>Life Skills for Spouse Visa</h3>
+        <!-- <p>Specialized training for the Life Skills A1 test, essential for spouse visa applications.</p> -->
+        <a class="cta-button" id="btnseven" onclick="showPopupseven()">Learn More</a>
+    </div>  
+</div>
+    </div>
+    
+
+<!-- ============================== Testimonials ========================== -->
+
+
+
+   <section class="section" id="testimonial">
+    <div class="testimonial-heading"> <h1>Real Words, Real Impact</h1> </div>
+
+
+<div class="testimonial-section">
+    <div class="testimonial-box">
+        <div class="testimonial-image" style="background-image: url('https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/Jibranzada.png');"></div>
+        <h4 class="testimonial-name">Jibran Zada</h4>
+        <p class="testimonial-text">Maam syyeda here genuinely care about your growth, my confidence in spoken English has shot really up!</p>
+        <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+    </div>
+    <div class="testimonial-box">
+        <div class="testimonial-image" style="background-image: url('https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/Muneeb.png');"></div>
+        <h4 class="testimonial-name">Muneeb</h4>
+        <p class="testimonial-text">Loved the friendly atmosphere and personalized approach, made learning IELTS feel easy and enjoyable!</p>
+        <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+    </div>
+    <div class="testimonial-box">
+        <div class="testimonial-image" style="background-image: url('https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/man.png');"></div>
+        <h4 class="testimonial-name">Sam Wilson</h4>
+        <p class="testimonial-text">Thanks to their structured PTE classes and supportive staff, I felt completely prepared for my test!.</p>
+        <div class="testimonial-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+    </div>
+</div>
+
+
+
+
+   </section>
+
+
+
+
+
+
+
+
+
+
+ <!--    <div id="contact" class="section">
+        <h1>Contact Us</h1>
+    </div> -->
+
+
+
+
+
+
+<!-- Contact Section -->
+<section class="section" id="contact" style="height: 80vh; width: 100%; display: flex; align-items: center; justify-content: center; ">
+  <div style="width: 90%;  display: flex; flex-direction: column; align-items: center; gap: 50px;">
+    <!-- Top Heading -->
+    <h2 id="contact-heading" style="text-align: center; font-size: 50px; font-weight: bold; color: yellow; margin-top:0;  ">Contact Us</h2>
+
+    <div class="contact-content" style="display: flex; width: 100%; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+      <!-- Left Content -->
+      <div class="contact-info-box" id="contact-info-box" style="flex: 1; min-width: 250px; max-width: 45%;">
+        <h3 id="book-call-heading" style="font-size: 40px; color: var(--sky-blue); margin-top: 0;">Book a 1:1 Call</h3>
+        <p id="book-call-subheading" style="font-size: 20px; color: var(--sky-blue); font-weight: bold;">Ready to take the next step? <br>Let’s connect and bring your vision to life. <br> Book a 1:1 call with us to discuss your ideas.</p>
+      </div>
+
+      <!-- Right Form -->
+      <div class="contact-form-box" id="contact-form-box" style="flex: 1; min-width: 250px; max-width: 45%; align-items: center;">
+        <form id="contact-form" style="display: flex; flex-direction: column; gap: 25px; align-items: center;">
+          <div class="input-group">
+            <span class="input-icon"><i class="fas fa-user"></i></span>
+            <input type="text" id="contact-name" class="contact-input" placeholder="Name" required>
+          </div>
+          <div class="input-group">
+            <span class="input-icon"><i class="fas fa-phone-alt"></i></span>
+            <input type="text" id="contact-phone" class="contact-input" placeholder="Phone No" required>
+          </div>
+          <div class="input-group">
+            <span class="input-icon"><i class="fas fa-envelope"></i></span>
+            <input type="email" id="contact-email" class="contact-input" placeholder="Email" required>
+          </div>
+          <div class="input-group">
+            <span class="input-icon"><i class="fas fa-comment"></i></span>
+            <input id="contact-message" class="contact-input" placeholder="Message" required>
+          </div>
+          <button type="button" id="contact-submit" style="padding: 12px; border: none; background-color: var(--blue); color: var(--navy); font-size: 19px; border-radius: 25px; cursor: pointer; font-weight:bold;   width: 40%; " onclick="submitToWhatsApp()">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-bar">
+  <h1 class="footer-left">
+    <i class="fas fa-check-circle"></i> The English Nest
+  </h1>
+  <h1 class="footer-right">
+    <a href="https://www.jibranzada.com">Designed by Jibran</a>
+  </h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const topBar = document.querySelector('.top-bar');
+            const homeSection = document.getElementById('home');
+            const navLinks = document.querySelectorAll('.nav-links a');
+
+            // Detect if home section is in view
+            const homeInView = window.scrollY < homeSection.offsetHeight - 100;
+
+            // Toggle background and border color for top-bar
+            if (homeInView) {
+                topBar.style.backgroundColor = 'transparent';
+                topBar.style.borderColor = 'var(--blue)';
+            } else {
+                // topBar.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+                topBar.style.backgroundColor = 'transparent';
+                topBar.style.borderColor = 'var(--blue)';
+            }
+
+            // Toggle active link based on section in view
+            let currentSection = '';
+            document.querySelectorAll('.section').forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(currentSection)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+       // Get the scroll indicator element
+const scrollIndicator = document.querySelector('.scroll-indicator');
+
+// Function to show or hide the scroll indicator
+function toggleScrollIndicator() {
+    const scrollPosition = window.scrollY; // Current scroll position
+
+    // Check if the user has scrolled down
+    if (scrollPosition > 0) {
+        scrollIndicator.style.display = 'none'; // Hide scroll indicator
+    } else {
+        scrollIndicator.style.display = 'flex'; // Show scroll indicator
+    }
+}
+
+// Event listener for scroll events
+window.addEventListener('scroll', toggleScrollIndicator);
+
+// =================== Start Now Button to #contact 
+function scrollToContact() {
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"  // Smooth scroll effect
+    });
+}
+// ============== popupone display =======================
+
+ function showPopup() {
+    var popup = document.querySelector('.popupone');
+    var servicesSection = document.getElementById('services');
+
+    // Show the popup
+    popup.style.display = 'flex';
+
+    // Apply blur effect to the services section
+    servicesSection.style.filter = 'blur(20px)'; // Adjust blur intensity as needed
+    servicesSection.style.pointerEvents = 'none'; // Prevent interaction with the blurred section
+
+    // Set the popup style to remain clear
+    popup.style.position = 'absolute'; // Ensure it is above the blurred section
+    popup.style.zIndex = '10'; // Ensure it is on top
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+
+
+            // Disable page scrolling
+            document.body.style.overflow = 'hidden';
+}
+//  function hidePopup() {
+//     var popup = document.querySelector('.popupone');
+
+//     // Show the popup
+//     popup.style.display = 'none';
+// }
+
+
+ window.hidePopup = function() {
+            var popup = document.querySelector('.popupone');
+            var servicesSection = document.getElementById('services');
+
+            popup.style.display = 'none';
+            servicesSection.style.filter = 'none';
+            servicesSection.style.pointerEvents = 'auto';
+
+               // Enable page scrolling
+            document.body.style.overflow = 'auto';
+        };
+
+// ======================== Two  ===============================//
+         function showPopuptwo() {
+    var popup = document.querySelector('.popuptwo');
+    var servicesSection = document.getElementById('services');
+
+    // Show the popup
+    popup.style.display = 'block';
+
+    // Apply blur effect to the services section
+    servicesSection.style.filter = 'blur(20px)'; // Adjust blur intensity as needed
+    servicesSection.style.pointerEvents = 'none'; // Prevent interaction with the blurred section
+
+    // Set the popup style to remain clear
+    popup.style.position = 'absolute'; // Ensure it is above the blurred section
+    popup.style.zIndex = '10'; // Ensure it is on top
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+
+
+            // Disable page scrolling
+            document.body.style.overflow = 'hidden';
+}
+//  function hidePopup() {
+//     var popup = document.querySelector('.popupone');
+
+//     // Show the popup
+//     popup.style.display = 'none';
+// }
+
+
+ window.hidePopuptwo = function() {
+            var popup = document.querySelector('.popuptwo');
+            var servicesSection = document.getElementById('services');
+
+            popup.style.display = 'none';
+            servicesSection.style.filter = 'none';
+            servicesSection.style.pointerEvents = 'auto';
+
+               // Enable page scrolling
+            document.body.style.overflow = 'auto';
+        };
+
+
+
+//======================== three ======================//
+
+ function showPopupthree() {
+    var popup = document.querySelector('.popupthree');
+    var servicesSection = document.getElementById('services');
+
+    // Show the popup
+    popup.style.display = 'block';
+
+    // Apply blur effect to the services section
+    servicesSection.style.filter = 'blur(20px)'; // Adjust blur intensity as needed
+    servicesSection.style.pointerEvents = 'none'; // Prevent interaction with the blurred section
+
+    // Set the popup style to remain clear
+    popup.style.position = 'absolute'; // Ensure it is above the blurred section
+    popup.style.zIndex = '10'; // Ensure it is on top
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+
+
+            // Disable page scrolling
+            document.body.style.overflow = 'hidden';
+}
+//  function hidePopup() {
+//     var popup = document.querySelector('.popupone');
+
+//     // Show the popup
+//     popup.style.display = 'none';
+// }
+
+
+ window.hidePopupthree = function() {
+            var popup = document.querySelector('.popupthree');
+            var servicesSection = document.getElementById('services');
+
+            popup.style.display = 'none';
+            servicesSection.style.filter = 'none';
+            servicesSection.style.pointerEvents = 'auto';
+
+               // Enable page scrolling
+            document.body.style.overflow = 'auto';
+        };
+
+
+
+
+
+//======================== four ======================//
+
+ function showPopupfour() {
+    var popup = document.querySelector('.popupfour');
+    var servicesSection = document.getElementById('services');
+
+    // Show the popup
+    popup.style.display = 'block';
+
+    // Apply blur effect to the services section
+    servicesSection.style.filter = 'blur(20px)'; // Adjust blur intensity as needed
+    servicesSection.style.pointerEvents = 'none'; // Prevent interaction with the blurred section
+
+    // Set the popup style to remain clear
+    popup.style.position = 'absolute'; // Ensure it is above the blurred section
+    popup.style.zIndex = '10'; // Ensure it is on top
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+
+
+            // Disable page scrolling
+            document.body.style.overflow = 'hidden';
+}
+//  function hidePopup() {
+//     var popup = document.querySelector('.popupone');
+
+//     // Show the popup
+//     popup.style.display = 'none';
+// }
+
+
+ window.hidePopupfour = function() {
+            var popup = document.querySelector('.popupfour');
+            var servicesSection = document.getElementById('services');
+
+            popup.style.display = 'none';
+            servicesSection.style.filter = 'none';
+            servicesSection.style.pointerEvents = 'auto';
+
+               // Enable page scrolling
+            document.body.style.overflow = 'auto';
+        };
+
+
+
+
+//======================== five ======================//
+
+ function showPopupfive() {
+    var popup = document.querySelector('.popupfive');
+    var servicesSection = document.getElementById('services');
+
+    // Show the popup
+    popup.style.display = 'block';
+
+    // Apply blur effect to the services section
+    servicesSection.style.filter = 'blur(20px)'; // Adjust blur intensity as needed
+    servicesSection.style.pointerEvents = 'none'; // Prevent interaction with the blurred section
+
+    // Set the popup style to remain clear
+    popup.style.position = 'absolute'; // Ensure it is above the blurred section
+    popup.style.zIndex = '10'; // Ensure it is on top
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+
+
+            // Disable page scrolling
+            document.body.style.overflow = 'hidden';
+}
+//  function hidePopup() {
+//     var popup = document.querySelector('.popupone');
+
+//     // Show the popup
+//     popup.style.display = 'none';
+// }
+
+
+ window.hidePopupfive = function() {
+            var popup = document.querySelector('.popupfive');
+            var servicesSection = document.getElementById('services');
+
+            popup.style.display = 'none';
+            servicesSection.style.filter = 'none';
+            servicesSection.style.pointerEvents = 'auto';
+
+               // Enable page scrolling
+            document.body.style.overflow = 'auto';
+        };
+
+
+
+
+
+
+
+
+//======================== six ======================//
+
+ function showPopupsix() {
+    var popup = document.querySelector('.popupsix');
+    var servicesSection = document.getElementById('services');
+
+    // Show the popup
+    popup.style.display = 'block';
+
+    // Apply blur effect to the services section
+    servicesSection.style.filter = 'blur(20px)'; // Adjust blur intensity as needed
+    servicesSection.style.pointerEvents = 'none'; // Prevent interaction with the blurred section
+
+    // Set the popup style to remain clear
+    popup.style.position = 'absolute'; // Ensure it is above the blurred section
+    popup.style.zIndex = '10'; // Ensure it is on top
+
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+
+            // Disable page scrolling
+            document.body.style.overflow = 'hidden';
+}
+//  function hidePopup() {
+//     var popup = document.querySelector('.popupone');
+
+//     // Show the popup
+//     popup.style.display = 'none';
+// }
+
+
+ window.hidePopupsix = function() {
+            var popup = document.querySelector('.popupsix');
+            var servicesSection = document.getElementById('services');
+
+            popup.style.display = 'none';
+            servicesSection.style.filter = 'none';
+            servicesSection.style.pointerEvents = 'auto';
+
+               // Enable page scrolling
+            document.body.style.overflow = 'auto';
+        };
+
+
+
+
+
+
+
+//======================== seven ======================//
+
+ function showPopupseven() {
+    var popup = document.querySelector('.popupseven');
+    var servicesSection = document.getElementById('services');
+
+    // Show the popup
+    popup.style.display = 'block';
+
+    // Apply blur effect to the services section
+    servicesSection.style.filter = 'blur(20px)'; // Adjust blur intensity as needed
+    servicesSection.style.pointerEvents = 'none'; // Prevent interaction with the blurred section
+
+    // Set the popup style to remain clear
+    popup.style.position = 'absolute'; // Ensure it is above the blurred section
+    popup.style.zIndex = '10'; // Ensure it is on top
+
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+
+            // Disable page scrolling
+            document.body.style.overflow = 'hidden';
+}
+//  function hidePopup() {
+//     var popup = document.querySelector('.popupone');
+
+//     // Show the popup
+//     popup.style.display = 'none';
+// }
+
+
+ window.hidePopupseven = function() {
+            var popup = document.querySelector('.popupseven');
+            var servicesSection = document.getElementById('services');
+
+            popup.style.display = 'none';
+            servicesSection.style.filter = 'none';
+            servicesSection.style.pointerEvents = 'auto';
+
+               // Enable page scrolling
+            document.body.style.overflow = 'auto';
+        };
+
+
+
+
+// ==================== Whatsapp Contact Form =========================== ///
+          function submitToWhatsApp() {
+    // Fetch input values
+    const name = document.getElementById('contact-name').value.trim();
+    const phone = document.getElementById('contact-phone').value.trim();
+    const email = document.getElementById('contact-email').value.trim();
+    const message = document.getElementById('contact-message').value.trim();
+
+    // Check if all fields are filled
+    if (!name || !phone || !email || !message) {
+      alert("Please fill all fields before submitting.");
+      return;
+    }
+
+    // Format WhatsApp message
+    const whatsappMessage = `Hello, I'm ${name}.%0A%0AHere's my information for booking a call:%0A- Phone: ${phone}%0A- Email: ${email}%0A- Message: ${message}`;
+
+    // WhatsApp URL with the formatted message
+    const whatsappURL = `https://wa.me/923455408366?text=${whatsappMessage}`;
+
+    // Redirect to WhatsApp
+    window.open(whatsappURL, '_blank');
+  }
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
