@@ -11,14 +11,14 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-      <link rel="shortcut icon" type="image/jpg" href="favicon.png"><link rel="stylesheet" type="text/css" href="style.css"><link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"><script type="text/javascript" src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script><script type="text/javascript">emailjs.init("JmWFn7DJzgs_MOJog")</script>
+      <link rel="shortcut icon" type="image/jpg" href="favicon.png"><link rel="stylesheet" type="text/css" href="styles.css"><link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"><script type="text/javascript" src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script><script type="text/javascript">emailjs.init("JmWFn7DJzgs_MOJog")</script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/twemoji.min.css">
       <!-- Include Font Awesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <!-- Add this to load Font Awesome icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/3paNdF+ZsaBr6P9lJZrF1H6vhtPiFQ" crossorigin="anonymous">
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/twemoji.min.js"></script>
+<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 <script>
   // This will parse and render emojis using Twemoji
   twemoji.parse(document.body);
@@ -409,7 +409,7 @@ body {
     background-image: url('https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/university-1.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
-    z-index: 1; /* Set lower z-index */
+/*    z-index: 1; /* Set lower z-index */*/
 }
 
 .abt-overlay {
@@ -1303,25 +1303,7 @@ input{
     border: 3px solid var(--sky-blue);
 }
   /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .contact-content {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    #contact-heading {
-      font-size: 2rem;
-    }
-    #book-call-heading {
-      font-size: 1.5rem;
-    }
-    .contact-input {
-      font-size: 0.9rem;
-    }
-    #contact-submit {
-      font-size: 1rem;
-    }
-  }
+  
 
 
 
@@ -1370,6 +1352,880 @@ a{
 
 
 
+/*=======================================================================================================================*/
+
+
+
+
+
+
+
+/*=============== Laptop =============*/
+  @media (min-width: 1024px) and (max-width: 1440px) {
+/* Hide all elements with specific classes */
+.navbar-mobile, .logo-mobile, .nav-links-mobile, .hamburger-mobile, .mobile-menu-mobile, .close-btn-mobile, .hiimg, .iconone {
+  display: none;
+}
+
+/* Hide all elements with specific IDs */
+#nav-links-mobile, #hamburger-mobile, #mobile-menu-mobile, #close-btn-mobile, #home-mobile, #about-mobile, #services-mobile, #portfolio-mobile, #contact-mobile {
+  display: none;
+}
+}
+/*============== Tablets ==========*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+/* Hide all elements with specific classes */
+.navbar-mobile, .logo-mobile, .nav-links-mobile, .hamburger-mobile, .mobile-menu-mobile, .close-btn-mobile, .hiimg, .iconone {
+  display: none;
+}
+
+/* Hide all elements with specific IDs */
+#nav-links-mobile, #hamburger-mobile, #mobile-menu-mobile, #close-btn-mobile, #home-mobile, #about-mobile, #services-mobile, #portfolio-mobile, #contact-mobile {
+  display: none;
+}
+}
+
+/*============ PC =========*/
+@media (min-width: 1440px) {
+  /* Hide all elements with specific classes */
+.navbar-mobile, .logo-mobile, .nav-links-mobile, .hamburger-mobile, .mobile-menu-mobile, .close-btn-mobile, .hiimg, .iconone {
+  display: none;
+}
+
+/* Hide all elements with specific IDs */
+#nav-links-mobile, #hamburger-mobile, #mobile-menu-mobile, #close-btn-mobile, #home-mobile, #about-mobile, #services-mobile, #portfolio-mobile, #contact-mobile {
+  display: none;
+}
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+
+
+/* Hide images individually by parent and position */
+.top-bar .logo-container img {
+  display: none;
+}
+
+#home .home-content .image-container img {
+  display: none;
+}
+
+#home .home-content .text-container img {
+  display: none;
+}
+
+.about-container .about-image img {
+  display: none;
+}
+
+.abt-txt-box img {
+  display: none;
+}
+
+.popupone .general img {
+  display: none;
+}
+
+.popupone .academic img {
+  display: none;
+}
+
+.popuptwo .pte img {
+  display: none;
+}
+
+.popupthree .toefl img {
+  display: none;
+}
+
+.popupfour .business img {
+  display: none;
+}
+
+.popupfive .spoken img {
+  display: none;
+}
+
+.popupsix .oxford img {
+  display: none;
+}
+
+.popupseven .spouse img {
+  display: none;
+}
+
+#services .boxes .box #box1 .icon img {
+  display: none;
+}
+
+#services .boxes .box #box2 .icon img {
+  display: none;
+}
+
+#services .boxes .box #box3 .icon img {
+  display: none;
+}
+
+#services .boxes .box #box4 .icon img {
+  display: none;
+}
+
+#services .boxes .box #box5 .icon img {
+  display: none;
+}
+
+#services .boxes .box #box6 .icon img {
+  display: none;
+}
+
+#services .boxes .box #box7 .icon img {
+  display: none;
+}
+
+/* Hide individual h1, h2, h3, h4, etc. tags by their specific parent location */
+.top-bar h1 {
+  display: none;
+}
+
+#home .home-content .text-container h2 {
+  display: none;
+}
+
+#home .home-content .text-container h1 {
+  display: none;
+}
+
+#about .first-about h1 {
+  display: none;
+}
+
+#about .first-about h2 {
+  display: none;
+}
+
+#about .about-container .about-text h1 {
+  display: none;
+}
+
+#abt-sec .choose-h h1 {
+  display: none;
+}
+
+#abt-sec .abt-txt-cont .abt-txt-box h3 {
+  display: none;
+}
+
+.popupone .general h1 {
+  display: none;
+}
+
+.popupone .academic h1 {
+  display: none;
+}
+
+.popuptwo .pte h1 {
+  display: none;
+}
+
+.popupthree .toefl h1 {
+  display: none;
+}
+
+.popupfour .business h1 {
+  display: none;
+}
+
+.popupfive .spoken h1 {
+  display: none;
+}
+
+.popupsix .oxford h1 {
+  display: none;
+}
+
+.popupseven .spouse h1 {
+  display: none;
+}
+
+#services .sec-heading h1 {
+  display: none;
+}
+
+#testimonial .testimonial-heading h1 {
+  display: none;
+}
+
+#footer-bar .footer-left h1 {
+  display: none;
+}
+
+#footer-bar .footer-right h1 {
+  display: none;
+}
+
+/* Hide individual <p> tags */
+#home .home-content .text-container p {
+  display: none;
+}
+
+#about .about-container .about-text p {
+  display: none;
+}
+
+#abt-sec .abt-txt-cont .abt-txt-box p {
+  display: none;
+}
+
+.popupone .general p {
+  display: none;
+}
+
+.popupone .academic p {
+  display: none;
+}
+
+.popuptwo .pte p {
+  display: none;
+}
+
+.popupthree .toefl p {
+  display: none;
+}
+
+.popupfour .business p {
+  display: none;
+}
+
+.popupfive .spoken p {
+  display: none;
+}
+
+.popupsix .oxford p {
+  display: none;
+}
+
+.popupseven .spouse p {
+  display: none;
+}
+
+#testimonial .testimonial-section .testimonial-box .testimonial-text {
+  display: none;
+}
+
+/* Hide individual <a> tags (links) */
+.top-bar .nav-links a {
+  display: none;
+}
+
+#home .home-content .text-container .cta-button {
+  display: none;
+}
+
+#about .about-container .about-text .cta-button {
+  display: none;
+}
+
+#abt-sec .abt-txt-cont .abt-txt-box .cta-button {
+  display: none;
+}
+
+#services .boxes .box .cta-button {
+  display: none;
+}
+
+.popupone .general .cta-button {
+  display: none;
+}
+
+.popupone .academic .cta-button {
+  display: none;
+}
+
+.popuptwo .pte .cta-button {
+  display: none;
+}
+
+.popupthree .toefl .cta-button {
+  display: none;
+}
+
+.popupfour .business .cta-button {
+  display: none;
+}
+
+.popupfive .spoken .cta-button {
+  display: none;
+}
+
+.popupsix .oxford .cta-button {
+  display: none;
+}
+
+.popupseven .spouse .cta-button {
+  display: none;
+}
+
+/* Hide all <button> elements individually */
+button {
+  display: none;
+}
+
+#contact-submit {
+  display: none;
+}
+
+#contact-form button {
+  display: none;
+}
+
+/* Hide individual <ul> and <li> by their parent container */
+#home .home-content .text-container ul {
+  display: none;
+}
+
+#about .first-about ul {
+  display: none;
+}
+
+#services .boxes ul {
+  display: none;
+}
+
+#testimonial .testimonial-section ul {
+  display: none;
+}
+
+#footer-bar .footer-left ul {
+  display: none;
+}
+
+#footer-bar .footer-right ul {
+  display: none;
+}
+
+/* Hide specific <li> inside <ul> tags */
+#home .home-content .text-container ul li {
+  display: none;
+}
+
+#about .first-about ul li {
+  display: none;
+}
+
+#services .boxes ul li {
+  display: none;
+}
+
+#testimonial .testimonial-section ul li {
+  display: none;
+}
+
+#footer-bar .footer-left ul li {
+  display: none;
+}
+
+#footer-bar .footer-right ul li {
+  display: none;
+}
+
+/* Hide <div> elements by specific class or ID */
+.top-bar {
+  display: none;
+}
+
+#home .home-content {
+  display: none;
+}
+
+#about .about-container {
+  display: none;
+}
+
+#abt-sec .choose-h {
+  display: none;
+}
+
+#abt-sec .abt-txt-cont .abt-txt-box {
+  display: none;
+}
+
+.popupone .general {
+  display: none;
+}
+
+.popupone .academic {
+  display: none;
+}
+
+.popuptwo .pte {
+  display: none;
+}
+
+.popupthree .toefl {
+  display: none;
+}
+
+.popupfour .business {
+  display: none;
+}
+
+.popupfive .spoken {
+  display: none;
+}
+
+.popupsix .oxford {
+  display: none;
+}
+
+.popupseven .spouse {
+  display: none;
+}
+
+#services .boxes .box #box1 {
+  display: none;
+}
+
+#services .boxes .box #box2 {
+  display: none;
+}
+
+#services .boxes .box #box3 {
+  display: none;
+}
+
+#services .boxes .box #box4 {
+  display: none;
+}
+
+#services .boxes .box #box5 {
+  display: none;
+}
+
+#services .boxes .box #box6 {
+  display: none;
+}
+
+#services .boxes .box #box7 {
+  display: none;
+}
+
+#testimonial .testimonial-section .testimonial-box {
+  display: none;
+}
+
+#footer-bar .footer-left {
+  display: none;
+}
+
+#footer-bar .footer-right {
+  display: none;
+}
+
+/* Hide specific <span>, <strong>, and other inline elements */
+#home .home-content .text-container span {
+  display: none;
+}
+
+#about .first-about span {
+  display: none;
+}
+
+#services .boxes .box span {
+  display: none;
+}
+
+#testimonial .testimonial-section span {
+  display: none;
+}
+
+#footer-bar .footer-left span {
+  display: none;
+}
+
+#footer-bar .footer-right span {
+  display: none;
+}
+
+/* Hide specific <section> elements */
+#home {
+  display: none;
+}
+
+#about {
+  display: none;
+}
+
+#services {
+  display: none;
+}
+
+#testimonial {
+  display: none;
+}
+
+#footer-bar {
+  display: none;
+}
+#contact, .contact-content,
+.contact-info-box,
+.contact-form-box,
+.footer-bar,
+.footer-left,
+.abt-bg, .abt-sec{
+    display: none;
+}
+/* Hide the background image and overlay */
+#abt-sec .abt-bg {
+    display: none;
+}
+
+#abt-sec .abt-bg .abt-overlay {
+    display: none;
+}
+
+/* Hide the 'Why Choose Us' heading */
+#abt-sec .choose-h h1 {
+    display: none;
+}
+
+/* Hide the text container that holds the 3 boxes */
+#abt-sec .abt-txt-cont {
+    display: none;
+}
+
+/* Hide the individual 'abt-txt-box' divs */
+#abt-sec .abt-txt-cont .abt-txt-box {
+    display: none;
+}
+
+/* Hide the images in each abt-txt-box */
+#abt-sec .abt-txt-cont .abt-txt-box img {
+    display: none;
+}
+
+/* Hide the h3 headings within the abt-txt-box */
+#abt-sec .abt-txt-cont .abt-txt-box h3 {
+    display: none;
+}
+
+/* Hide the paragraphs within the abt-txt-box */
+#abt-sec .abt-txt-cont .abt-txt-box p {
+    display: none;
+}
+/* General Popups */
+.popupone, .popuptwo, .popupthree, .popupfour, .popupfive, .popupsix, .popupseven {
+    display: none;
+}
+
+/* For popupone (IELTS General) */
+.popupone .general {
+    display: none;
+}
+
+.popupone .general h1 {
+    display: none;
+}
+
+.popupone .general h3 {
+    display: none;
+}
+
+.popupone .general h2 {
+    display: none;
+}
+
+.popupone .general ul {
+    display: none;
+}
+
+.popupone .general ul li {
+    display: none;
+}
+
+.popupone .general h4 {
+    display: none;
+}
+
+/* For popuptwo (PTE) */
+.popuptwo .pte {
+    display: none;
+}
+
+.popuptwo .pte h1 {
+    display: none;
+}
+
+.popuptwo .pte p {
+    display: none;
+}
+
+.popuptwo .pte h4 {
+    display: none;
+}
+
+/* For popupthree (TOEFL) */
+.popupthree .toefl {
+    display: none;
+}
+
+.popupthree .toefl h1 {
+    display: none;
+}
+
+.popupthree .toefl p {
+    display: none;
+}
+
+.popupthree .toefl h4 {
+    display: none;
+}
+
+/* For popupfour (Business English) */
+.popupfour .business {
+    display: none;
+}
+
+.popupfour .business h1 {
+    display: none;
+}
+
+.popupfour .business p {
+    display: none;
+}
+
+.popupfour .business h4 {
+    display: none;
+}
+
+/* For popupfive (Spoken English) */
+.popupfive .spoken {
+    display: none;
+}
+
+.popupfive .spoken h1 {
+    display: none;
+}
+
+.popupfive .spoken p {
+    display: none;
+}
+
+.popupfive .spoken h4 {
+    display: none;
+}
+
+/* For popupsix (Oxford English Test) */
+.popupsix .oxford {
+    display: none;
+}
+
+.popupsix .oxford h1 {
+    display: none;
+}
+
+.popupsix .oxford p {
+    display: none;
+}
+
+.popupsix .oxford h4 {
+    display: none;
+}
+
+/* For popupseven (Life Skills for Spouse Visa) */
+.popupseven .spouse {
+    display: none;
+}
+
+.popupseven .spouse h1 {
+    display: none;
+}
+
+.popupseven .spouse p {
+    display: none;
+}
+
+.popupseven .spouse h4 {
+    display: none;
+}
+
+/* Services Section (and boxes inside it) */
+#services .sec-heading {
+    display: none;
+}
+
+#services .sec-heading h1 {
+    display: none;
+}
+
+/* Individual Boxes in Services Section */
+#services .boxes .box {
+    display: none;
+}
+
+#services .boxes .box .icon {
+    display: none;
+}
+
+#services .boxes .box h3 {
+    display: none;
+}
+
+#services .boxes .box .cta-button {
+    display: none;
+}
+
+/* Specifically targeting the 'Learn More' links in all the boxes */
+#services .boxes .box a.cta-button {
+    display: none;
+}
+/* Hide the entire testimonial section */
+#testimonial {
+    display: none;
+}
+
+/* Specifically for the testimonial-heading */
+#testimonial .testimonial-heading {
+    display: none;
+}
+
+#testimonial .testimonial-heading h1 {
+    display: none;
+}
+
+/* Specifically for the testimonial-section */
+#testimonial .testimonial-section {
+    display: none;
+}
+
+/* For each testimonial box */
+#testimonial .testimonial-section .testimonial-box {
+    display: none;
+}
+
+/* Inside each testimonial box, we target every element */
+#testimonial .testimonial-section .testimonial-box .testimonial-image {
+    display: none;
+}
+
+#testimonial .testimonial-section .testimonial-box .testimonial-name {
+    display: none;
+}
+
+#testimonial .testimonial-section .testimonial-box .testimonial-text {
+    display: none;
+}
+
+#testimonial .testimonial-section .testimonial-box .testimonial-rating {
+    display: none;
+}
+/* Hide the entire Contact Section */
+#contact {
+    display: none;
+}
+
+/* Target the top-level content inside the Contact section */
+#contact > div {
+    display: none;
+}
+
+/* Hide the Contact Heading */
+#contact-heading {
+    display: none;
+}
+
+/* Hide the Contact Content Box */
+#contact .contact-content {
+    display: none;
+}
+
+/* Hide the Left Content Section */
+#contact .contact-info-box {
+    display: none;
+}
+
+/* Specific elements inside the Left Content */
+#contact #contact-info-box h3 {
+    display: none;
+}
+
+#contact #contact-info-box p {
+    display: none;
+}
+
+/* Hide the Right Form Box */
+#contact .contact-form-box {
+    display: none;
+}
+
+/* Hide the entire form */
+#contact #contact-form {
+    display: none;
+}
+
+/* Hide each input group (including the icons) */
+#contact .input-group {
+    display: none;
+}
+
+/* Hide each individual input field */
+#contact #contact-name {
+    display: none;
+}
+
+#contact #contact-phone {
+    display: none;
+}
+
+#contact #contact-email {
+    display: none;
+}
+
+#contact #contact-message {
+    display: none;
+}
+
+/* Hide the submit button */
+#contact #contact-submit {
+    display: none;
+}
+
+/* Hide the Footer Section */
+#footer-bar {
+    display: none;
+}
+
+/* Hide the Footer Left Section */
+#footer-bar .footer-left {
+    display: none;
+}
+
+/* Hide the Footer Right Section */
+#footer-bar .footer-right {
+    display: none;
+}
+
+/* Hide the link in the Footer Right */
+#footer-bar .footer-right a {
+    display: none;
+}
+
+#abt-sec{
+    display: none;
+}
+.section{
+    display: none;
+}
+#contact{
+    display: none;
+}
 
 
 
@@ -1378,6 +2234,252 @@ a{
 
 
 
+
+
+
+
+
+
+ /* General Styles */
+body {
+  font-family: 'Quicksand';
+  margin: 0;
+  padding: 0;
+  background-color: var(--navy);
+}
+
+ :root {;
+            --navy: #08032C;
+            --sky-blue: #6CD4FF;
+            --blue: #2AC6D1;
+            --white: #F4F1E6;
+            --green: #98fb98;
+            --cream: #CFA89E;
+        }
+
+
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 50px;
+  background-color: transparent;
+  color: blue;
+  position: relative;
+  border-radius: 40px;
+  margin: 8px;
+  border: 3px solid var(--sky-blue) ;
+}
+
+.navbar-mobile .logo-mobile img {
+width: 90px;
+padding: 0;
+margin: 0;
+margin-left: -18px;
+}
+
+.navbar-mobile .nav-links-mobile {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-mobile .nav-links-mobile li {
+  display: inline-block;
+}
+
+.navbar-mobile .nav-links-mobile li a {
+  color: var(--sky-blue);
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-mobile .nav-links-mobile li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile Menu */
+.mobile-menu-mobile {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 0;
+  width: 250px;
+  height: 90%;
+  border: 3px solid var(--sky-blue);
+/*  background-color: rgba(0, 0, 0, 0.8);*/
+background-color: var(--navy);
+  color: white;
+  z-index: 1001;
+  padding: 50px 20px 20px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  margin-top: -3px;
+  border-radius: 20px;
+}
+
+.mobile-menu-mobile.open {
+  transform: translateX(-3%);
+}
+
+.mobile-menu-mobile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu-mobile ul li {
+  margin: 20px 0;
+}
+
+.mobile-menu-mobile ul li a {
+  color: var(--sky-blue);
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+
+.mobile-menu-mobile .close-btn-mobile {
+  background: none;
+  border: none;
+  color: var(--sky-blue);
+  font-size: 35px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  font-weight: bold;
+  right: 20px;
+}
+
+.hamburger-mobile {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger-mobile i {
+  font-size: 30px;
+  color: var(--sky-blue);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar-mobile .nav-links-mobile {
+    display: none;
+  }
+#contact{
+    display: none;
+}
+  .hamburger-mobile {
+    display: block;
+  }
+
+  .mobile-menu-mobile {
+    display: block;
+  }
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+
+section{
+  height: 100vh;
+}
+
+#home-mobile h2{
+  margin: 0;
+  text-align: center;
+  color: var(--sky-blue);
+font-family: "Dancing Script", cursive; 
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+#home-mobile .hiimg{
+  display: block;
+  margin: 0;
+  padding-top: 50px;
+  text-align: center;
+}
+#home-mobile img{
+ padding-right: 30px;
+  width: 70%;
+  margin: 0;
+}
+#home-mobile h1{
+  padding-top: 0px;
+  color: yellow;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 20px;
+}
+.close-btn-mobile{
+    display: block;
+}
+.fas.fa-arrow-down {
+  font-size: 35px;  /* Size of the icon */
+  bottom: 20px;
+position: absolute;
+      animation: bounce 1.5s ease-in-out infinite; 
+  color: var(--sky-blue);   /* Color of the icon */
+}
+  .iconone{
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+ }
+
+ @keyframes bounce {
+      0%, 100% {
+        transform: translateX(-50%) translateY(0); /* Start and end at normal position */
+      }
+      50% {
+        transform: translateX(-50%) translateY(-20px); /* Move up by 15px */
+      }
+    }
+#home-mobile h3{
+  color: var(--white);
+/*  padding-left: 20px ;*/
+margin: auto;
+padding-top:10px;
+/*  padding-right: 50px;*/
+  text-align: center;
+  width: 80%;
+  font-size: 17px;
+}
+#home-mobile{
+/*    padding-top: 70px;*/
+}
+
+#contact{
+    height: 80vh; width: 100%; display: flex; align-items: center; justify-content: center;
+}
+
+/*=======================================================================================================================*/
 
 
     </style>
@@ -1706,7 +2808,7 @@ a{
 
 
 <!-- Contact Section -->
-<section class="section" id="contact" style="height: 80vh; width: 100%; display: flex; align-items: center; justify-content: center; ">
+<section class="section" id="contact" >
   <div style="width: 90%;  display: flex; flex-direction: column; align-items: center; gap: 50px;">
     <!-- Top Heading -->
     <h2 id="contact-heading" style="text-align: center; font-size: 50px; font-weight: bold; color: yellow; margin-top:0;  ">Contact Us</h2>
@@ -1758,6 +2860,75 @@ a{
 
 
 
+
+
+<!-- ===================================================================================================================== -->
+
+
+ <header>
+    <nav class="navbar-mobile">
+      <!-- Logo -->
+      <div class="logo-mobile">
+        <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/logo.png" alt="Logo">
+      </div>
+
+      <!-- Horizontal Navigation Bar for Large Screens -->
+      <ul class="nav-links-mobile" id="nav-links-mobile">
+        <li><a href="#home-mobile"><i class="fas fa-mobile"></i> Home</a></li>
+        <li><a href="#about-mobile"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="#services-mobile"><i class="fas fa-cogs"></i> Services</a></li>
+        <li><a href="#portfolio-mobile"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#contact-mobile"><i class="fas fa-phone"></i> Contact</a></li>
+      </ul>
+
+      <!-- Hamburger Icon for Small Screens -->
+      <div class="hamburger-mobile" id="hamburger-mobile">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Mobile Dropdown Menu -->
+    <div class="mobile-menu-mobile" id="mobile-menu-mobile">
+      <button id="close-btn-mobile" class="close-btn-mobile"><i class="fas fa-times"></i></button>
+      <ul>
+        <li><a href="#home-mobile"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about-mobile"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="#services-mobile"><i class="fas fa-cogs"></i> Services</a></li>
+        <li><a href="#portfolio-mobile"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#contact-mobile"><i class="fas fa-phone"></i> Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+    <section id="home-mobile">
+      <h2>The English Nest</h2>
+</div>
+<h1>Nest Your Fu&#127795;ure <br> with us</h1>
+<h3>Embark on a journey where knowledge meets passion and success becomes inevitable! &#11088;</h3>
+      <div class="hiimg"><img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/Front.png">
+<div class="iconone"><i class="fas fa-arrow-down"></i></div>
+    </section>
+
+
+
+
+
+    <section id="about-mobile">About Content</section>
+    <section id="services-mobile">Services Content</section>
+    <section id="portfolio-mobile">Portfolio Content</section>
+    <section id="contact-mobile">Contact Content</section>
+
+
+
+
+<style type="text/css">
+    @media (max-width: 768px) {
+        #contact{
+            display: none;
+        }
+}
+</style>
+<!-- ====================================================================================================================== -->
 
 
 
@@ -2178,6 +3349,56 @@ function scrollToContact() {
 
 
     </script>
+
+
+
+<script type="text/javascript">
+// Get references to HTML elements
+const hamburgerHome = document.getElementById('hamburger-mobile');
+const mobileMenuHome = document.getElementById('mobile-menu-mobile');
+const closeBtnHome = document.getElementById('close-btn-mobile');
+const navLinksHome = document.querySelectorAll('.mobile-menu-mobile a');
+
+// Toggle the mobile menu when hamburger icon is clicked
+hamburgerHome.addEventListener('click', () => {
+  mobileMenuHome.classList.add('open');
+});
+
+// Close the mobile menu when close button is clicked
+closeBtnHome.addEventListener('click', () => {
+  mobileMenuHome.classList.remove('open');
+});
+
+// Close the mobile menu when a link is clicked
+navLinksHome.forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenuHome.classList.remove('open');
+  });
+});
+
+// Close the mobile menu when clicking outside of it
+document.addEventListener('click', (event) => {
+  if (
+    !mobileMenuHome.contains(event.target) && // Check if the click is outside the menu
+    !hamburgerHome.contains(event.target) && // Check if the click is not on the hamburger icon
+    mobileMenuHome.classList.contains('open') // Check if the menu is currently open
+  ) {
+    // Temporarily display none with a slight delay
+    mobileMenuHome.classList.remove('open');
+    setTimeout(() => {
+      mobileMenuHome.style.display = 'none';
+      setTimeout(() => {
+        mobileMenuHome.style.display = ''; // Reset display property after 1 second
+      }, 1000); // Ensure it remains hidden for 1 second
+    }, 0);
+  }
+});
+
+</script>
+
+
+
+
 
 </body>
 </html>
