@@ -2271,7 +2271,12 @@ header {
   align-items: center;
   padding: 10px 20px;
   height: 30px;
-  background-color: transparent;
+/*  background-color: transparent;*/
+/* Add this to your element */
+background-color: transparent; /* Semi-transparent black */
+backdrop-filter: blur(7px); /* Adds a blur effect */
+-webkit-backdrop-filter: blur(5px); /* For Safari */
+
   color: blue;
   position: relative;
   border-radius: 40px;
@@ -2319,7 +2324,7 @@ margin-left: -20px;
   top: 10px;
   right: 0;
   width: 250px;
-  height: 80%;
+  height: 85%;
   border: 3px solid var(--sky-blue);
 /*  background-color: rgba(0, 0, 0, 0.8);*/
 background-color: var(--navy);
@@ -2897,9 +2902,9 @@ padding-top:10px;
       <button id="close-btn-mobile" class="close-btn-mobile"><i class="fas fa-times"></i></button>
       <ul>
         <li><a href="#home-mobile"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="#about-mobile"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="#about-mobile"><i class="fas fa-user"></i> About</a></li>
         <li><a href="#services-mobile"><i class="fas fa-cogs"></i> Services</a></li>
-        <li><a href="#portfolio-mobile"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#portfolio-mobile"><i class="fas fa-users"></i> Reviews</a></li>
         <li><a href="#contact-mobile"><i class="fas fa-phone"></i> Contact</a></li>
       </ul>
     </div>
@@ -3367,15 +3372,37 @@ const mobileMenuHome = document.getElementById('mobile-menu-mobile');
 const closeBtnHome = document.getElementById('close-btn-mobile');
 const navLinksHome = document.querySelectorAll('.mobile-menu-mobile a');
 
+// Select the elements you want to blur
+const navbarMobile = document.getElementById('nav-links-mobile');
+const homeMobile = document.getElementById('home-mobile');
+const aboutMobile = document.getElementById('about-mobile');
+
+// Function to apply blur effect
+function applyBlur() {
+  navbarMobile.style.filter = 'blur(5px)';
+  homeMobile.style.filter = 'blur(5px)';
+  aboutMobile.style.filter = 'blur(5px)';
+}
+
+// Function to remove blur effect
+function removeBlur() {
+  navbarMobile.style.filter = 'none';
+  homeMobile.style.filter = 'none';
+  aboutMobile.style.filter = 'none';
+}
+
 // Toggle the mobile menu when hamburger icon is clicked
 hamburgerHome.addEventListener('click', () => {
-  mobileMenuHome.classList.add('open');
+  mobileMenuHome.classList.add('open'); // Show the mobile menu
+  applyBlur(); // Apply blur effect to the specified divs
 });
 
-// Close the mobile menu when close button is clicked
+// Remove the blur effect when the close button is clicked
 closeBtnHome.addEventListener('click', () => {
-  mobileMenuHome.classList.remove('open');
+  mobileMenuHome.classList.remove('open'); // Hide the mobile menu
+  removeBlur(); // Remove blur effect from the specified divs
 });
+
 
 // Close the mobile menu when a link is clicked
 navLinksHome.forEach(link => {
