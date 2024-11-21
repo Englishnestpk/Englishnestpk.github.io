@@ -251,7 +251,8 @@ body {
 
 .home-image {
     transform: translateY(30%); /* Adjust to center vertically */
-    max-width: 100%; /* Ensure the image is responsive */
+    width: 80%; /* Ensure the image is responsive */
+    padding-top: 30px;
     animation: moveUpDown 3s ease-in-out infinite; /* Apply animation */
 }
 
@@ -378,9 +379,9 @@ body {
 }
 
 .about-image img {
-    max-width: 100%;
     height: auto;
-    width: 75%;
+    width: 65%;
+    padding-top: 30px;
     border-radius: 10px;
     border: none;
 }
@@ -625,7 +626,7 @@ background-color: #007bff;
     border: 3px solid var(--sky-blue);
     background-color: var(--navy);
     border-radius: 20px;
-    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    box-sizing: border-box; /* Ensures padding doesnâ€™t affect width */
 }
 .general{
     border-top-right-radius: 0;
@@ -2489,6 +2490,78 @@ padding-top:10px;
     height: 80vh; width: 100%; display: flex; align-items: center; justify-content: center;
 }
 
+
+
+
+
+.aboutheading h1{
+color: yellow;
+font-size: 40px;
+text-align: center;
+}
+
+/* Main container */
+.twodivs-mobile {
+    height: 300px;
+  width: 90%;
+  margin: 0 auto; /* Center the div */
+  display: flex; /* Use flexbox to position child elements side by side */
+  justify-content: space-between; /* Ensure even spacing between child divs */
+}
+
+/* Left image container */
+.imagebox-mobile {
+  width: 40%; /* 40% of the main container */
+}
+
+/* Image inside the imagebox-mobile */
+.imagebox-mobile img {
+    padding-top: 30px;
+  width: 100%; /* Make the image occupy the full width of the container */
+  display: block; /* Remove any inline padding/margins from the image */
+}
+
+/* Right text container */
+.textbox-mobile {
+  width: 60%; /* 60% of the main container */
+}
+
+
+.textbox-mobile h1{
+    color: var(--sky-blue);
+    font-size: 30px;
+    padding-left: 25px;
+}
+.textbox-mobile h2{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 25px;
+    color: var(--white);
+}
+#about-mobile h3{
+    color: var(--sky-blue);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: "Dancing Script", cursive; 
+
+
+}
+
+#about-mobile{
+    height: 55vh;
+}
+
+
+
+
+
+
+
+
+
+
 /*=======================================================================================================================*/
 
 
@@ -2522,7 +2595,10 @@ padding-top:10px;
 <button class="cta-button" onclick="scrollToContact()">Start Now! &#10024;</button>
         </div>
         <div class="image-container">
-            <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/teacher.png" alt="Teacher" class="home-image">
+            <!-- <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/teacher.png" alt="Teacher" class="home-image"> -->
+
+<img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/Front.png" class="home-image">
+
         </div>
     </div>
        <!-- Scroll Indicator -->
@@ -2541,11 +2617,14 @@ padding-top:10px;
         
 <div class="about-container">
      <div class="about-image">
-        <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/girl.png" alt="About Us Image">
+        <!-- <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/girl.png" alt="About Us Image"> -->
+
+<img src="main.png">
+
     </div>
     <div class="about-text">
-        <h1>Elevate Your English Skills with Maam Syyeda</h1>
-        <p>Maam Syyeda is a dedicated and exceptional English instructor, guiding students with clarity and simplicity. Her expertise brings English to life, making learning accessible and enjoyable for everyone. As the heart of The English Nest, she’s committed to helping each learner succeed with confidence.</p>
+        <h1>Hi, I'm Lubna Syed</h1>
+        <p>Iâ€™m Lubna Syed, a passionate and friendly English trainer who loves helping learners grow their confidence and make learning enjoyable. As the heart of The English Nest, i'm committed to helping each learner succeed with confidence.</p>
     </div>
    
 </div>
@@ -2567,12 +2646,12 @@ padding-top:10px;
         <div class="abt-txt-box">
             <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/expert.png">
             <h3>Experience</h3>
-            <p>Learn with a teacher who truly understands English and makes every lesson clear and fun. You’re in great hands here!</p>
+            <p>Learn with a teacher who truly understands English and makes every lesson clear and fun. Youâ€™re in great hands here!</p>
         </div>
         <div class="abt-txt-box">
             <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/care.png">
             <h3>Care</h3>
-            <p>Receive one-on-one attention every step of the way. We’re here to make sure you succeed comfortably and confidently.</p>
+            <p>Receive one-on-one attention every step of the way. Weâ€™re here to make sure you succeed comfortably and confidently.</p>
         </div>
         <div class="abt-txt-box">
             <img src="https://raw.githubusercontent.com/mrtrojanpk/TheEnglishNest/refs/heads/main/results.png">
@@ -2619,7 +2698,7 @@ padding-top:10px;
 <div class="popuptwo">
 <div class="pte">
       <h1>PTE</h1>
-      <p>PTE  is all about getting you ready to thrive in English-speaking environments, whether you’re planning to study, work, or settle down abroad. This test checks how well you can read, write, listen, and speak English, and it's known for its fast, unbiased scoring thanks to AI. If you’re in a rush and need results quickly, PTE has your back, especially for countries like Australia, New Zealand, and Canada.</p>
+      <p>PTE  is all about getting you ready to thrive in English-speaking environments, whether youâ€™re planning to study, work, or settle down abroad. This test checks how well you can read, write, listen, and speak English, and it's known for its fast, unbiased scoring thanks to AI. If youâ€™re in a rush and need results quickly, PTE has your back, especially for countries like Australia, New Zealand, and Canada.</p>
 <h4>Difficulty level: Moderate to High</h4>
 <button onclick="hidePopuptwo()"><i class="fas fa-multiply" onclick="hidePopuptwo()"></i></button>
 
@@ -2636,7 +2715,7 @@ padding-top:10px;
 <div class="popupthree">
   <div class="toefl">
      <h1>TOEFL</h1>
-     <p>TOEFL is your ticket if you're dreaming of studying in the U.S. or Canada. This test dives deep into how well you handle university-level English, from understanding lectures to writing essays. With thousands of schools accepting TOEFL scores, it’s a top pick for students ready to take on the academic world. Plus, the score is valid for two years, giving you time to plan your next big step.</p>
+     <p>TOEFL is your ticket if you're dreaming of studying in the U.S. or Canada. This test dives deep into how well you handle university-level English, from understanding lectures to writing essays. With thousands of schools accepting TOEFL scores, itâ€™s a top pick for students ready to take on the academic world. Plus, the score is valid for two years, giving you time to plan your next big step.</p>
 <h4>Difficulty level: High</h4>
 <button onclick="hidePopupthree()"><i class="fas fa-multiply" onclick="hidePopupthree()"></i></button>
       <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupthree()"></i></div> -->
@@ -2647,7 +2726,7 @@ padding-top:10px;
 <div class="popupfour">
   <div class="business">
     <h1>Business English</h1>
-      <p>Want to shine in the business world? The Business English course is designed to get you confident with everything from emails to presentations. Imagine negotiating deals or leading meetings in fluent, professional English. This course isn’t just about learning words, it’s about mastering the language of global business and showing you’re ready for international success.</p>
+      <p>Want to shine in the business world? The Business English course is designed to get you confident with everything from emails to presentations. Imagine negotiating deals or leading meetings in fluent, professional English. This course isnâ€™t just about learning words, itâ€™s about mastering the language of global business and showing youâ€™re ready for international success.</p>
 <h4>Difficulty level: Moderate</h4>
 <button onclick="hidePopupfour()"><i class="fas fa-multiply" onclick="hidePopupfour()"></i></button>
       <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupfour()"></i></div> -->
@@ -2658,7 +2737,7 @@ padding-top:10px;
 <div class="popupfive">
   <div class="spoken">
        <h1>Spoken English</h1>
- <p>If you're looking to break free from language barriers, this Spoken English course is where you start. It’s all about boosting your confidence in everyday conversations, from casual chats to professional talks. With plenty of practice, you’ll find yourself speaking naturally, expressing your thoughts clearly, and enjoying the ease that comes with real fluency.</p>
+ <p>If you're looking to break free from language barriers, this Spoken English course is where you start. Itâ€™s all about boosting your confidence in everyday conversations, from casual chats to professional talks. With plenty of practice, youâ€™ll find yourself speaking naturally, expressing your thoughts clearly, and enjoying the ease that comes with real fluency.</p>
 <h4>Difficulty level: Easy to Moderate</h4>
 <button onclick="hidePopupfive()"><i class="fas fa-multiply" onclick="hidePopupfive()"></i></button>
       <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupfive()"></i></div> -->
@@ -2669,7 +2748,7 @@ padding-top:10px;
 <div class="popupsix">
   <div class="oxford">
        <h1>Oxford English Test</h1>
-       <p>Developed by the experts at Oxford, this test is a smart choice if you want to know where you stand with your English skills. It’s respected worldwide and covers all the basics: reading, listening, and grammar. No stress, just a solid evaluation of how ready you are for English-speaking environments, whether it’s for work, study, or travel.</p>
+       <p>Developed by the experts at Oxford, this test is a smart choice if you want to know where you stand with your English skills. Itâ€™s respected worldwide and covers all the basics: reading, listening, and grammar. No stress, just a solid evaluation of how ready you are for English-speaking environments, whether itâ€™s for work, study, or travel.</p>
 <h4>Difficulty level: Moderate </h4>
 <button onclick="hidePopupsix()"><i class="fas fa-multiply" onclick="hidePopupsix()"></i></button>
       <!-- <div class="icon"><i class="fas fa-multiply" onclick="hidePopupsix()"></i></div> -->
@@ -2680,7 +2759,7 @@ padding-top:10px;
 <div class="popupseven">
   <div class="spouse">
     <h1>Life Skills for Spouse Visa</h1>
-    <p>This one’s tailored for those applying for a UK spouse visa, focusing only on the basics: can you understand and respond in everyday English? It’s a practical, straightforward test designed to show you can handle the day-to-day language of life in an English-speaking country. Perfect for anyone starting fresh with their partner in the UK.
+    <p>This oneâ€™s tailored for those applying for a UK spouse visa, focusing only on the basics: can you understand and respond in everyday English? Itâ€™s a practical, straightforward test designed to show you can handle the day-to-day language of life in an English-speaking country. Perfect for anyone starting fresh with their partner in the UK.
 </p>
 <h4>Difficulty level: Easy</h4>
 <button onclick="hidePopupseven()"><i class="fas fa-multiply" onclick="hidePopupseven()"></i></button>
@@ -2827,7 +2906,7 @@ padding-top:10px;
       <!-- Left Content -->
       <div class="contact-info-box" id="contact-info-box" style="flex: 1; min-width: 250px; max-width: 45%;">
         <h3 id="book-call-heading" style="font-size: 40px; color: var(--sky-blue); margin-top: 0;">Book a 1:1 Call</h3>
-        <p id="book-call-subheading" style="font-size: 20px; color: var(--sky-blue); font-weight: bold;">Ready to take the next step? <br>Let’s connect and bring your vision to life. <br> Book a 1:1 call with us to discuss your ideas.</p>
+        <p id="book-call-subheading" style="font-size: 20px; color: var(--sky-blue); font-weight: bold;">Ready to take the next step? <br>Letâ€™s connect and bring your vision to life. <br> Book a 1:1 call with us to discuss your ideas.</p>
       </div>
 
       <!-- Right Form -->
@@ -2923,7 +3002,25 @@ padding-top:10px;
 
 
 
-    <section id="about-mobile">About Content</section>
+    <section id="about-mobile">
+        <div class="aboutheading"><h1>About Us</h1></div>       
+        <div class="twodivs-mobile">
+            <div class="imagebox-mobile"> <img src="main.png"> </div>
+            <div class="textbox-mobile">
+                <h1> Hi, I'm Lubna Syed</h1>
+                <h2>Iâ€™m Lubna Syed, a passionate and friendly English trainer who loves helping learners grow their confidence and make learning enjoyable.</h2>
+
+            </div>
+        </div>
+            <h3>Empowering voices, shaping futures.</h3>
+    </section>
+
+
+
+
+
+
+
     <section id="services-mobile">Services Content</section>
     <section id="portfolio-mobile">Portfolio Content</section>
     <section id="contact-mobile">Contact Content</section>
@@ -3342,7 +3439,7 @@ function scrollToContact() {
 
     // Check if all fields are filled
     if (!name || !phone || !email || !message) {
-      alert("Please fill all fields before submitting.");
+      alert("Please fill your deatils.");
       return;
     }
 
@@ -3408,6 +3505,8 @@ closeBtnHome.addEventListener('click', () => {
 navLinksHome.forEach(link => {
   link.addEventListener('click', () => {
     mobileMenuHome.classList.remove('open');
+      removeBlur(); // Remove blur effect from the specified divs
+
   });
 });
 
@@ -3420,6 +3519,7 @@ document.addEventListener('click', (event) => {
   ) {
     // Temporarily display none with a slight delay
     mobileMenuHome.classList.remove('open');
+  removeBlur(); // Remove blur effect from the specified divs
     setTimeout(() => {
       mobileMenuHome.style.display = 'none';
       setTimeout(() => {
