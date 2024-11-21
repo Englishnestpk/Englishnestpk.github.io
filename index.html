@@ -2544,6 +2544,7 @@ text-align: center;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    margin-top: 0;
     padding-top: 0;
     font-family: "Dancing Script", cursive; 
 
@@ -2552,7 +2553,84 @@ text-align: center;
 
 #about-mobile{
     height: 55vh;
+    padding-top: 0;
+    margin: 0;
 }
+
+
+
+.servicesheading h1{
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+}
+
+.servicesbox-mobile {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Adding gap between the boxes */
+}
+
+/* Style for each box */
+.servicesbox-mobile > div {
+    background-color: var(--navy);
+    padding: 20px;
+    text-align: center;
+}
+
+/* 50% width for the first 6 boxes */
+.boxone-mobile,
+.boxtwo-mobile,
+.boxthree-mobile,
+.boxfour-mobile,
+.boxfive-mobile,
+.boxsix-mobile {
+    border: 3px solid var(--sky-blue);
+    border-radius: 20px;
+    color: var(--sky-blue);
+    height: 100px;
+    margin-top: 10px;
+    width: 40%; /* 50% width minus gap */
+}
+
+/* Centering the 7th box with 70% width */
+.boxseven-mobile {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 100px;
+    margin-top: 10px;
+    color: var(--sky-blue);
+    border: 3px solid var(--sky-blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3022,7 +3100,27 @@ text-align: center;
 
 
 
-    <section id="services-mobile">Services Content</section>
+    <section id="services-mobile">
+<div class="servicesheading"> <h1>Services we offer</h1> </div>
+
+
+<div class="servicesbox-mobile">
+    <div class="boxone-mobile">Box 1</div>
+    <div class="boxtwo-mobile">Box 2</div>
+    <div class="boxthree-mobile">Box 3</div>
+    <div class="boxfour-mobile">Box 4</div>
+    <div class="boxfive-mobile">Box 5</div>
+    <div class="boxsix-mobile">Box 6</div>
+    <div class="boxseven-mobile">Box 7</div>
+</div>
+
+
+     </section>
+    
+
+
+
+
     <section id="portfolio-mobile">Portfolio Content</section>
     <section id="contact-mobile">Contact Content</section>
 
