@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #f0f8ff, #add8e6);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      user-select: none; /* CSS to disable text selection */
+    }
+
+    .quiz-container {
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .question {
+      margin-bottom: 15px;
+    }
+
+    .question h2 {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .options {
+      list-style: none;
+      padding: 0;
+    }
+
+    .options li {
+      margin: 5px 0;
+    }
+
+    .options input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    .submit-btn {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+  <script>
+    // Disable right-click
+    document.addEventListener('contextmenu', (event) => event.preventDefault());
+
+    // Disable copying
+    document.addEventListener('copy', (event) => event.preventDefault());
+
+    // Disable text selection via JS
+    document.addEventListener('selectstart', (event) => event.preventDefault());
+
+    // Disable drag-and-drop
+    document.addEventListener('dragstart', (event) => event.preventDefault());
+
+    function checkAnswers() {
+      const correctAnswers = {
+        question1: "option2", // Correct answer for Question 1
+        question2: "option3", // Correct answer for Question 2
+      };
+
+      let score = 0;
+
+      // Check answers
+      for (const [question, correctOption] of Object.entries(correctAnswers)) {
+        const selectedOption = document.querySelector(
+          `input[name="${question}"]:checked`
+        );
+        if (selectedOption && selectedOption.value === correctOption) {
+          score++;
+        }
+      }
+
+      // Display result
+      const resultDiv = document.getElementById("result");
+      resultDiv.textContent = `You got ${score} out of 2 correct!`;
+    }
+  </script>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Simple Quiz</h1>
+    
+    <!-- Question 1 -->
+    <div class="question">
+      <h2>1. The capital of France is _______?</h2>
+      <ul class="options">
+        <li><label><input type="radio" name="question1" value="option1"> Berlin</label></li>
+        <li><label><input type="radio" name="question1" value="option2"> Paris</label></li>
+        <li><label><input type="radio" name="question1" value="option3"> Madrid</label></li>
+        <li><label><input type="radio" name="question1" value="option4"> Rome</label></li>
+      </ul>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+      <h2>2. 5 + 3 = _______?</h2>
+      <ul class="options">
+        <li><label><input type="radio" name="question2" value="option1"> 6</label></li>
+        <li><label><input type="radio" name="question2" value="option2"> 7</label></li>
+        <li><label><input type="radio" name="question2" value="option3"> 8</label></li>
+        <li><label><input type="radio" name="question2" value="option4"> 9</label></li>
+      </ul>
+    </div>
+
+    <button class="submit-btn" onclick="checkAnswers()">Submit</button>
+    <div id="result" class="result"></div>
+  </div>
+</body>
+</html>
